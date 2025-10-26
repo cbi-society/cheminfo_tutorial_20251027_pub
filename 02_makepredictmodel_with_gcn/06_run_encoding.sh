@@ -6,7 +6,7 @@ chemprop fingerprint --logfile fingerprint_1.log \
   --smiles-column MOL_smiles \
   --ffn-block-index -1 \
   --accelerator gpu \
-  --model-path train`_data_with_hopt/model_0/best.pt
+  --model-path train_data_with_hopt/model_0/best.pt
 
 
 chemprop fingerprint --logfile fingerprint_2.log \
